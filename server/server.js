@@ -17,13 +17,7 @@
 // app.use('/songs', songRoutes);
 // app.use('/albums', albumRoutes);
 
-// const db = mysql.createConnection({
-//   host: 'webcourse.cs.nuim.ie', // your host
-//   user: 'u240213', // your username
-//   password: 'ooJ8Eimoo9ainahX', // your password
-//   database: 'cs230_u240213', // your database name
-//   port: 3306, // MySQL default port
-// });
+
 
 
 // db.connect((err) => {
