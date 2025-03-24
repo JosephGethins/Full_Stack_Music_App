@@ -1,0 +1,59 @@
+/* .Navbar {
+    background-color: #121212;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .Navbar h1 {
+    color: white;
+  }
+  
+  .Navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .Navbar ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .Navbar ul li a:hover {
+    text-decoration: underline;
+  }
+   */
+
+
+.Navbar {
+  display: flex;
+  justify-content: center; /* Centers the items horizontally */
+  background-color: #00B0FF;
+  padding: 15px;
+}
+
+.Navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex; /* Enables flexbox */
+  gap: 20px; /* Adjust the gap between items */
+}
+
+.Navbar li {
+  display: inline-block;
+}
+
+.Navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 40px;
+  text-decoration: none;
+}
+
+.Navbar li a:hover {
+  background-color: #0091C9;
+}

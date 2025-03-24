@@ -1,0 +1,99 @@
+body {
+  background-color: #1E1E1E;
+    color: white; 
+    margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  text-align: center; /* Center text inside the body */
+
+}
+
+h1 {
+  padding: 20px;
+}
+
+.album-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 180px; /* Push content below the navbar */
+  padding: 20px;
+}
+
+.album-list {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.song-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 180px; /* Push content below the navbar */
+  padding: 20px;
+}
+
+.song-list {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+main {
+  margin-top: 180px; /* Push content below the navbar */
+  padding: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+input {
+  width: 200px;   
+  max-width: 100%;       
+  padding: 10px;        
+  margin: 8px 0;       
+  border: 1px solid #ccc; 
+  border-radius: 5px;   /* Rounds the corners? */
+  font-size: 16px;      
+  border: none;
+}
+
+button
+{
+  font-family: 'Poppins', sans-serif;
+  border-radius: 8px;  /* Smooth edges */
+  color: aliceblue;
+  font-size: 16px;
+  padding: 7px 13px;
+  margin: 2px 5px;
+  background-color: #00B0FF;
+}
+
+button:hover
+{
+  background-color: #0091C9;
+}
+
+select {
+  font-family: 'Poppins', sans-serif;
+  color: aliceblue;
+  padding: 7px 13px;
+  margin: 2px 5px;
+  background-color: #00B0FF;
+  border: none;
+  border-radius: 5px;  /* Smooth edges */
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center;   /* so it likes put it in middle of box */
+}
+
+/* Hover effect */
+select:hover {
+  background-color: #0091C9;
+}
